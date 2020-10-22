@@ -24,4 +24,8 @@
     return [NSString stringWithFormat:@"%@ %@, name: %@, surname: %@, age: %lu", self.className, self.fullname, name, surname, _age];
 }
 
+- (void)incrementAge {
+    _age++;
+}
+
 @end

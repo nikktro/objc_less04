@@ -17,7 +17,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%lu", studentJohn.age);
         NSLog(@"%@", studentLiza.fullname);
         
-        [studentLiza description];
+        NSLog(@"%@", studentLiza.description);
+        [studentLiza incrementAge]; // increment age
         NSLog(@"%@", studentLiza.description);
         
     }
